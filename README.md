@@ -33,7 +33,7 @@ curl -O ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20110521/phase1_integra
 ## Running the Script
 To run the script, simply open a terminal or command prompt and navigate to the directory where the script and input files are located. Then, run the following command:
 ```
-python genomics_pca.py
+python vcf_to_matrix.py
 ```
 
 This will generate a transformed matrix and a CSV file containing the transformed matrix with sample population information.
